@@ -13,7 +13,7 @@ These instructions will give you a copy of the project for you to use for develo
 
 ##What is it?
 
-Robot Db is a **Fork** that uses a Telegram API written in Lua. Its structure was made from the master [Otouto](https://github.com/topkecleon/otouto) [v3.1](https://github.com/topkecleon/otouto/tree/26c1299374af130bbf8457af904cb4ea450caa51) ([@mokubot](https://telegram.me/mokubot)) And it is based on plugin of it. This makes it easier to manage the bot's function and command and allows you to split the bot's different capabilities into different files for a more specific view of what to do based on the [SiD](https://github.com/TiagoDanin/SiD) feito pelo [Tiago Danin](https://github.com/TiagoDanin).
+Robot Db is a **Fork** that uses a Telegram API written in Lua. Its structure was made from the master [Otouto](https://github.com/topkecleon/otouto) [v3.1](https://github.com/topkecleon/otouto/tree/26c1299374af130bbf8457af904cb4ea450caa51) ([@mokubot](https://telegram.me/mokubot)) And it is based on plugin of it. This makes it easier to manage bot function and command and allows you to split the bot's different capabilities into different files for a more specific view of what to do based on the **Ed Project** made by synko developers and [SiD](https://github.com/TiagoDanin/SiD) made by [Tiago Danin](https://github.com/TiagoDanin).
 
 * * *
 
@@ -98,7 +98,7 @@ You can also start the bot with `cd Bot && lua Bot.lua`, but then it will not re
 
 ##Dedication
 
-I dedicate my sincere credits to the [Drew](https://github.com/topkecleon),  creator of Otouto who started this project. And for the [RememberTheAir](https://github.com/RememberTheAir) creator of GroupButler, and for the [Tiago Danin](https://github.com/tiagodanin), and for the [Wesley Henrique](https://github.com/Synk0), for  the **Marcos Ferreira** and **Adilson Cavalcante**. :p
+I dedicate my sincere credits to the [Drew](https://github.com/topkecleon),  creator of Otouto who started this project. And for the [RememberTheAir](https://github.com/RememberTheAir) creator of GroupButler, and for the [Wesley Henrique](https://github.com/Synk0), and for the [Tiago Danin](https://github.com/tiagodanin), for  the **Marcos Ferreira** and [Adilson Cavalcante](https://github.com/Player4NoobWinner). :p
 
 * * *
 
