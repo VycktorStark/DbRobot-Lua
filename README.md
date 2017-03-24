@@ -1,23 +1,25 @@
 * * *
 
-                 ____       _               _____  _  
+                 ____       _                ____  _
                 |  _ \ ___ | |__   ___      |  _ \| |__  
                 | |_) / _ \| '_ \ / _ \     | | | | '_ \
-                |  _ < (_) | |_) | (_) |    | |_| | |_) |
-                |_| \_\___/|_.__/ \___/     |____/|_.__/
+                |  _ < (_) | |_) | (_) |    | |_| | |_) |  By: Vycktor Stark
+                |_| \_\___/|_.__/ \___/     |____/|_.__/   Version: 2.0
+
+                
 * * *
 
-##Getting Started
+## Getting Started
 
 These instructions will give you a copy of the project for you to use for development and testing purposes.
 
-##What is it?
+## What is it?
 
 Robot Db is a **Fork** that uses a Telegram API written in Lua. Its structure was made from the master [Otouto](https://github.com/topkecleon/otouto) [v3.1](https://github.com/topkecleon/otouto/tree/26c1299374af130bbf8457af904cb4ea450caa51) ([@mokubot](https://telegram.me/mokubot)) And it is based on plugin of it. This makes it easier to manage bot function and command and allows you to split the bot's different capabilities into different files for a more specific view of what to do based on the **Ed Project** made by synko developers and [SiD](https://github.com/TiagoDanin/SiD) made by [Tiago Danin](https://github.com/TiagoDanin).
 
 * * *
 
-##Configuring bot
+## Configuring bot
 
 You must have your machine updated, and have Lua (5.2+) installed, in addition to some modules: LuaSocket, LuaSec, Redis-Lua, Lua term and Lua serpent. And, to upload files, you need to have them installed as well.
 
@@ -88,7 +90,7 @@ $ cd DbRobot/Adicional && sudo chmod 777 Iniciar.sh && ./Iniciar.sh
 * * *
 
 
-##Initialization process
+## Initialization process
 
 To start the bot, execute `./DbRobot/Adicional/Iniciar.sh`. To stop the bot, press `Ctrl + c` twice.
 
@@ -96,10 +98,10 @@ You can also start the bot with `cd Bot && lua Bot.lua`, but then it will not re
 
 * * *
 
-##Dedication
+## Dedication
 
 I dedicate my sincere credits to the [Drew](https://github.com/topkecleon),  creator of Otouto who started this project. And for the [RememberTheAir](https://github.com/RememberTheAir) creator of GroupButler, and for the [Wesley Henrique](https://github.com/Synk0), and for the [Tiago Danin](https://github.com/tiagodanin), for  the **Marcos Ferreira** and [Adilson Cavalcante](https://github.com/Player4NoobWinner). :p
 
 * * *
 
-##[@DbRobot](telegram.me/DbRobot)
+## [@DbRobot](telegram.me/DbRobot)
