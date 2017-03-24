@@ -62,7 +62,7 @@ Cloning the repository:
 ```bash
 # Cloning the repository and giving the permissions to start the initiation script
 
-$ git clone https://github.com/VycktorStark/DbRobot.git
+$ git clone https://github.com/VycktorStark/DbRobot-Lua.git
 $ cd DbRobot/Adicional && sudo chmod 777 Iniciar.sh && ./Iniciar.sh
 ```
 
