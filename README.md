@@ -4,7 +4,7 @@
                 |  _ \ ___ | |__   ___      |  _ \| |__  
                 | |_) / _ \| '_ \ / _ \     | | | | '_ \
                 |  _ < (_) | |_) | (_) |    | |_| | |_) |  By: Vycktor Stark
-                |_| \_\___/|_.__/ \___/     |____/|_.__/   Version: 2.0
+                |_| \_\___/|_.__/ \___/     |____/|_.__/   Version: 2.0 - Telegram
 
                 
 * * *
@@ -15,8 +15,7 @@ These instructions will give you a copy of the project for you to use for develo
 
 ## What is it?
 
-Robot Db is a **Fork** that uses a Telegram API written in Lua. Its structure was made from the master [Otouto](https://github.com/topkecleon/otouto) [v3.1](https://github.com/topkecleon/otouto/tree/26c1299374af130bbf8457af904cb4ea450caa51) ([@mokubot](https://telegram.me/mokubot)) And it is based on plugin of it. This makes it easier to manage bot function and command and allows you to split the bot's different capabilities into different files for a more specific view of what to do based on the **Ed Project** made by synko developers and [SiD](https://github.com/TiagoDanin/SiD) made by [Tiago Danin](https://github.com/TiagoDanin).
-
+Robot Db version 2.0 is a bot that uses a "Telegram-Bot-API" written in Lua. Its structure was made from the master [Otouto](https://github.com/topkecleon/otouto) [v3.1](https://github.com/topkecleon/otouto/tree/26c1299374af130bbf8457af904cb4ea450caa51) ([@mokubot](https://telegram.me/mokubot)) and it is based on its plugins. This makes it easy to manage bot function and command and allows you to split the bot's different capabilities into different files for a more specific view of what to do! Made based on the project team of [Synko developers](https://github.com/SynkoDevelopers) and the [SiD](https://github.com/TiagoDanin/SiD) project, Done by [Tiago Danin](https://github.com/TiagoDanin).
 * * *
 
 ## Configuring bot
@@ -63,7 +62,7 @@ Cloning the repository:
 # Cloning the repository and giving the permissions to start the initiation script
 
 $ git clone https://github.com/VycktorStark/DbRobot-Lua.git
-$ cd DbRobot/Adicional && sudo chmod 777 Iniciar.sh && ./Iniciar.sh
+$ cd DbRobot-Lua/Adicional && sudo chmod 777 Iniciar.sh && ./Iniciar.sh
 ```
 
 **First of all, take a look at your bot settings:**
@@ -92,9 +91,9 @@ $ cd DbRobot/Adicional && sudo chmod 777 Iniciar.sh && ./Iniciar.sh
 
 ## Initialization process
 
-To start the bot, execute `./DbRobot/Adicional/Iniciar.sh`. To stop the bot, press `Ctrl + c` twice.
+To start the bot, execute `./DbRobot-Lua/Adicional/Iniciar.sh`. To stop the bot, press `Ctrl + c` twice.
 
-You can also start the bot with `cd Bot && lua Bot.lua`, but then it will not restart automatically.
+You can also start the bot with `cd /DbRobot-Lua/Adicional/ && lua Bot.lua`, but then it will not restart automatically.
 
 * * *
 
@@ -104,4 +103,4 @@ I dedicate my sincere credits to the [Drew](https://github.com/topkecleon),  cre
 
 * * *
 
-## [@DbRobot](telegram.me/DbRobot)
+## @DbRobot
