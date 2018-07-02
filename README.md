@@ -4,7 +4,7 @@
                 |  _ \ ___ | |__   ___      |  _ \| |__  
                 | |_) / _ \| '_ \ / _ \     | | | | '_ \
                 |  _ < (_) | |_) | (_) |    | |_| | |_) |  By: Vycktor Stark
-                |_| \_\___/|_.__/ \___/     |____/|_.__/   Version: 2.0 - Telegram
+                |_| \_\___/|_.__/ \___/     |____/|_.__/   Version: 2.0 - Telegram-BOT
 
                 
 * * *
@@ -15,45 +15,21 @@ These instructions will give you a copy of the project for you to use for develo
 
 ## What is it?
 
-Robot Db version 2.0 is a bot that uses a "Telegram-Bot-API" written in Lua. Its structure was made from the master [Otouto](https://github.com/topkecleon/otouto) [v3.1](https://github.com/topkecleon/otouto/tree/26c1299374af130bbf8457af904cb4ea450caa51) ([@mokubot](https://telegram.me/mokubot)) and it is based on its plugins. This makes it easy to manage bot function and command and allows you to split the bot's different capabilities into different files for a more specific view of what to do! Made based on the project team of [Synko developers](https://github.com/SynkoDevelopers) and the [SiD](https://github.com/TiagoDanin/SiD) project, Done by [Tiago Danin](https://github.com/TiagoDanin).
+Robot Db version 2.0 is a bot that uses a "Telegram-Bot-API" written in Lua. Its structure was made from the master [Otouto](https://github.com/topkecleon/otouto) [v3.1](https://github.com/topkecleon/otouto/tree/26c1299374af130bbf8457af904cb4ea450caa51) ([@mokubot](https://telegram.me/mokubot)) and it is based on its plugins. This makes it easy to manage bot function and command and allows you to split the bot's different capabilities into different files for a more specific view of what to do! Made based on the project team of [Synko developers](https://github.com/SynkoDevelopers) and the [SiD](https://github.com/TiagoDanin/SiD) project, per [Tiago Danin](https://github.com/TiagoDanin).
 * * *
 
 ## Configuring bot
 
-You must have your machine updated, and have Lua (5.2+) installed, in addition to some modules: LuaSocket, LuaSec, Redis-Lua, Lua term and Lua serpent. And, to upload files, you need to have them installed as well.
-
-What you need to install and use the project:
+You should have your machine updated and have Lua (5.2+) installed, in addition to some modules: LuaSocket, LuaSec, Redis-Lua, Moon and Lua serpent. and if you do not have it, you need to install it this way:
 
 ```
 # Tested on Ubuntu 14.04, 15.04 and 16.04, Debian 7, Linux Mint 17.2
 $ sudo apt-get update
 $ sudo apt-get upgrade
-$ sudo apt-get install libreadline-dev libssl-dev lua5.2 liblua5.2-dev git make unzip redis-server curl libcurl4-gnutls-dev
-$ sudo apt install lua5.2 luarocks liblua5.2-dev lua-sec lua-socket xtitle curl deborphan figlet libreadline-dev libconfig-dev libssl-dev  libevent-dev make unzip git redis-server g++ libjansson-dev libpython-dev expat libexpat1-dev -f -y
-$ sudo apt-get install figlet
+$ sudo apt install lua5.2 luarocks liblua5.2-dev lua-sec lua-socket libcurl4-gnutls-dev xtitle curl deborphan figlet libreadline-dev libconfig-dev libssl-dev  libevent-dev make unzip git redis-server g++ libjansson-dev libpython-dev expat libexpat1-dev -f -y
 # We are going now to install LuaRocks and the required Lua modules
+$ wget http://keplerproject.github.io/luarocks/releases/luarocks-2.3.0.tar.gz&& tar zxpf luarocks-2.3.0.tar.gz && cd luarocks-2.3.0 && ./configure; sudo make bootstrap && sudo luarocks install luasec && sudo luarocks install luasocket && sudo luarocks install redis-lua && sudo luarocks install lua-term && sudo luarocks install serpent && sudo luarocks install dkjson && sudo luarocks install Lua-cURL && sudo luarocks install luautf8 && sudo luarocks install multipart-post && cd ..
 
-$ wget http://keplerproject.github.io/luarocks/releases/luarocks-2.3.0.tar.gz
-$ tar zxpf luarocks-2.3.0.tar.gz
-$ cd luarocks-2.3.0
-$ ./configure; sudo make bootstrap
-$ sudo luarocks install luasec
-$ sudo luarocks install luasocket
-$ sudo luarocks install redis-lua
-$ sudo luarocks install lua-term
-$ sudo luarocks install serpent
-$ sudo luarocks install dkjson
-$ sudo luarocks install Lua-cURL
-$ sudo luarocks install luautf8
-$ sudo luarocks install multipart-post
-$ cd ..
-
-```
-
-Install Curl, only if you need:
-
-```bash
-$ sudo apt-get install curl
 ```
 
 Cloning the repository:
@@ -61,8 +37,7 @@ Cloning the repository:
 ```bash
 # Cloning the repository and giving the permissions to start the initiation script
 
-$ git clone https://github.com/VycktorStark/DbRobot-Lua.git
-$ cd DbRobot-Lua/Adicional && sudo chmod 777 Iniciar.sh && ./Iniciar.sh
+$ git clone https://github.com/VycktorStark/DbRobot-Lua.git && cd DbRobot-Lua/Adicional && sudo chmod 777 Iniciar.sh && cd .. 
 ```
 
 **First of all, take a look at your bot settings:**
